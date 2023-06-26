@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Plan</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			background-color: white;
+			font-family: 'Muli', sans-serif;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			margin: 0;
+			overflow-x: hidden;
+		}
+
+		.courses-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 0 auto;
+			max-width: 1200px;
+			padding: 20px;
+			width: 100%;
+		}
+
+		.course {
+			background-color: #fff;
+			border-radius: 10px;
+			box-shadow: 0 10px 10px rgba(0, 0, 0, 1.2);
+			margin: 20px;
+			width: 80%;
+		}
+
+		.course-preview {
+			background-color: #2A265F;
+			color: #fff;
+			padding: 30px;
+			text-align: center;
+		}
+
+		.course-preview h6, .course-preview h3 {
+			margin: 0;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			
+		}
+
+		.course-preview a {
+			color: #fff;
+			display: inline-block;
+			font-size: 12px;
+			opacity: 0.6;
+			margin-top: 30px;
+			text-decoration: none;
+		}
+
+		.course-info-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: 4px;
+			width: auto;
+			overflow-y: scroll;
+			height: 400px;
+		}
+
+		.course-info {
+			border: 5px solid rgb(10, 10, 71);
+			border-radius: 10px;
+			margin: 20px;
+			padding: 30px;
+			width: 260px;
+			height: auto;
+		}
+
+		.course-info h6, .course-info h3 {
+			margin: 0;
+		}
+
+		.btn {
+			background-color: #2A265F;
+			border: 0;
+			border-radius: 50px;
+			box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+			color: #fff;
+			font-size: 16px;
+			padding: 12px 25px;
+			letter-spacing: 1px;
+			margin-top: 20px;
+			cursor: pointer;
+		}
+		.btn:hover {
+			background-color: #2A265F;
+			background-color: gold;
+		}
+
+		@media screen and (max-width: 767px) {
+			.course {
+				flex-direction: column;
+			}
+
+			.course-preview {
+				padding: 20px;
+			}
+
+			.course-info {
+				margin: 10px;
+				
+				
+			}
+		}
+
+		@media screen and (min-width: 768px) and (max-width: 1199px) {
+			.courses-container {
+				padding: 10px;
+			}
+
+			.course-info {
+				margin:0 ;
+}
+}
+@media screen and (min-width: 1200px) {
+		.courses-container {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.course-info {
+			margin: 10px;
+		}
+	}
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+  
+			<div class="course">
+				<div class="course-preview">
+					<h6>Plan Date Time</h6>
+					<h3>1 may 2022 6:30 pm</h3>
+					<h6>Budget</h6>
+					<h3>Negotiation</h3>
+					<!-- <a href="#">pickup point:28.23333,87.25255 <i class="fas fa-chevron-right"></i></a> -->
+					<h6>Pickup point</h6>
+					<h3>28.25566,87.2255</h3>
+					<h6>Destination</h6>
+					<h3>28.25666,88.25566</h3>
+				</div>
+				<center>
+					<h2 style=" width: 100%; background-color: gold;">Guide Applications</h2>
+				</center>
+				<div class="course-info-container">
+					<div class="course-info">
+					
+						
+						<h5>Name: Hem Raj Pandey</h5>
+						<h5>Contact: 9864766958</h2>
+						<h5>Email: hemrajpandeyd@gmail.com</h2>
+						<h5>Country: Nepal</h5>
+						<h5>Sex: Male</h5>
+						<button class="btn">Accept</button>
+					</div>
+					<div class="course-info">
+					
+						
+						<h5>Name: Hem Raj Pandey</h5>
+						<h5>Contact: 9864766958</h2>
+						<h5>Email: hemrajpandeyd@gmail.com</h2>
+						<h5>Country: Nepal</h5>
+						<h5>Sex: Male</h5>
+						<button class="btn">Accept</button>
+					</div>
+					<div class="course-info">
+					
+						
+						<h5>Name: Hem Raj Pandey</h5>
+						<h5>Contact: 9864766958</h2>
+						<h5>Email: hemrajpandeyd@gmail.com</h2>
+						<h5>Country: Nepal</h5>
+						<h5>Sex: Male</h5>
+						<button class="btn">Accept</button>
+					</div>
+					<div class="course-info">
+					
+					
+						<h5>Name: Hem Raj Pandey</h5>
+						<h5>Contact: 9864766958</h2>
+						<h5>Email: hemrajpandeyd@gmail.com</h2>
+						<h5>Country: Nepal</h5>
+						<h5>Sex: Male</h5>
+						<button class="btn">Accept</button>
+					</div>
+					<div class="course-info">
+					
+					
+						<h5>Name: Hem Raj Pandey</h5>
+						<h5>Contact: 9864766958</h2>
+						<h5>Email: hemrajpandeyd@gmail.com</h2>
+						<h5>Country: Nepal</h5>
+						<h5>Sex: Male</h5>
+						<button class="btn">Accept</button>
+					</div>
+					<div class="course-info">
+					
+						<h5>Name: Hem Raj Pandey</h5>
+						<h5>Contact: 9864766958</h2>
+						<h5>Email: hemrajpandeyd@gmail.com</h2>
+						<h5>Country: Nepal</h5>
+						<h5>Sex: Male</h5>
+						<button class="btn">Accept</button>
+					</div>
+					<div class="course-info">
+					
+						
+						<h5>Name: Hem Raj Pandey</h5>
+						<h5>Contact: 9864766958</h2>
+						<h5>Email: hemrajpandeyd@gmail.com</h2>
+						<h5>Country: Nepal</h5>
+						<h5>Sex: Male</h5>
+						<button class="btn">Accept</button>
+					</div>
+					<div class="course-info">
+					
+						<h5>Name: Hem Raj Pandey</h5>
+						<h5>Contact: 9864766958</h2>
+						<h5>Email: hemrajpandeyd@gmail.com</h2>
+						<h5>Country: Nepal</h5>
+						<h5>Sex: Male</h5>
+						<button class="btn">Accept</button>
+					</div>
+					<div class="course-info">
+					
+					
+						<h5>Name: Hem Raj Pandey</h5>
+						<h5>Contact: 9864766958</h2>
+						<h5>Email: hemrajpandeyd@gmail.com</h2>
+						<h5>Country: Nepal</h5>
+						<h5>Sex: Male</h5>
+						<button class="btn">Accept</button>
+					</div>
+				</div>
+			
+			   
+			
+			
+				
+		
+		
+		</div>
+	
+    	<div class="course">
+			<div class="course-preview">
+				<h6>Plan Date Time</h6>
+				<h3>1 may 2022 6:30 pm</h3>
+				<h6>Budget</h6>
+				<h3>Negotiation</h3>
+				<!-- <a href="#">pickup point:28.23333,87.25255 <i class="fas fa-chevron-right"></i></a> -->
+				<h6>Pickup point</h6>
+				<h3>28.25566,87.2255</h3>
+				<h6>Destination</h6>
+				<h3>28.25666,88.25566</h3>
+			</div>
+			<center>
+				<h2 style=" width: 100%; background-color: gold;">Guide Applications</h2>
+			</center>
+			<div class="course-info-container">
+				<div class="course-info">
+				
+					
+					<h5>Name: Hem Raj Pandey</h5>
+					<h5>Contact: 9864766958</h2>
+					<h5>Email: hemrajpandeyd@gmail.com</h2>
+					<h5>Country: Nepal</h5>
+					<h5>Sex: Male</h5>
+					<button class="btn">Accept</button>
+				</div>
+				<div class="course-info">
+				
+					
+					<h5>Name: Hem Raj Pandey</h5>
+					<h5>Contact: 9864766958</h2>
+					<h5>Email: hemrajpandeyd@gmail.com</h2>
+					<h5>Country: Nepal</h5>
+					<h5>Sex: Male</h5>
+					<button class="btn">Accept</button>
+				</div>
+				<div class="course-info">
+				
+					
+					<h5>Name: Hem Raj Pandey</h5>
+					<h5>Contact: 9864766958</h2>
+					<h5>Email: hemrajpandeyd@gmail.com</h2>
+					<h5>Country: Nepal</h5>
+					<h5>Sex: Male</h5>
+					<button class="btn">Accept</button>
+				</div>
+				<div class="course-info">
+				
+				
+					<h5>Name: Hem Raj Pandey</h5>
+					<h5>Contact: 9864766958</h2>
+					<h5>Email: hemrajpandeyd@gmail.com</h2>
+					<h5>Country: Nepal</h5>
+					<h5>Sex: Male</h5>
+					<button class="btn">Accept</button>
+				</div>
+				<div class="course-info">
+				
+				
+					<h5>Name: Hem Raj Pandey</h5>
+					<h5>Contact: 9864766958</h2>
+					<h5>Email: hemrajpandeyd@gmail.com</h2>
+					<h5>Country: Nepal</h5>
+					<h5>Sex: Male</h5>
+					<button class="btn">Accept</button>
+				</div>
+				<div class="course-info">
+				
+					<h5>Name: Hem Raj Pandey</h5>
+					<h5>Contact: 9864766958</h2>
+					<h5>Email: hemrajpandeyd@gmail.com</h2>
+					<h5>Country: Nepal</h5>
+					<h5>Sex: Male</h5>
+					<button class="btn">Accept</button>
+				</div>
+				<div class="course-info">
+				
+					
+					<h5>Name: Hem Raj Pandey</h5>
+					<h5>Contact: 9864766958</h2>
+					<h5>Email: hemrajpandeyd@gmail.com</h2>
+					<h5>Country: Nepal</h5>
+					<h5>Sex: Male</h5>
+					<button class="btn">Accept</button>
+				</div>
+				<div class="course-info">
+				
+					<h5>Name: Hem Raj Pandey</h5>
+					<h5>Contact: 9864766958</h2>
+					<h5>Email: hemrajpandeyd@gmail.com</h2>
+					<h5>Country: Nepal</h5>
+					<h5>Sex: Male</h5>
+					<button class="btn">Accept</button>
+				</div>
+				<div class="course-info">
+				
+				
+					<h5>Name: Hem Raj Pandey</h5>
+					<h5>Contact: 9864766958</h2>
+					<h5>Email: hemrajpandeyd@gmail.com</h2>
+					<h5>Country: Nepal</h5>
+					<h5>Sex: Male</h5>
+					<button class="btn">Accept</button>
+				</div>
+			</div>
+		
+		   
+		
+		
+			
+	
+	
+	</div>
+	<div class="course">
+		<div class="course-preview">
+			<h6>Plan Date Time</h6>
+			<h3>1 may 2022 6:30 pm</h3>
+			<h6>Budget</h6>
+			<h3>Negotiation</h3>
+			<!-- <a href="#">pickup point:28.23333,87.25255 <i class="fas fa-chevron-right"></i></a> -->
+			<h6>Pickup point</h6>
+			<h3>28.25566,87.2255</h3>
+			<h6>Destination</h6>
+			<h3>28.25666,88.25566</h3>
+		</div>
+		<center>
+			<h2 style=" width: 100%; background-color: gold;">Guide Applications</h2>
+		</center>
+		<div class="course-info-container">
+			<div class="course-info">
+			
+				
+				<h5>Name: Hem Raj Pandey</h5>
+				<h5>Contact: 9864766958</h2>
+				<h5>Email: hemrajpandeyd@gmail.com</h2>
+				<h5>Country: Nepal</h5>
+				<h5>Sex: Male</h5>
+				<button class="btn">Accept</button>
+			</div>
+			<div class="course-info">
+			
+				
+				<h5>Name: Hem Raj Pandey</h5>
+				<h5>Contact: 9864766958</h2>
+				<h5>Email: hemrajpandeyd@gmail.com</h2>
+				<h5>Country: Nepal</h5>
+				<h5>Sex: Male</h5>
+				<button class="btn">Accept</button>
+			</div>
+			<div class="course-info">
+			
+				
+				<h5>Name: Hem Raj Pandey</h5>
+				<h5>Contact: 9864766958</h2>
+				<h5>Email: hemrajpandeyd@gmail.com</h2>
+				<h5>Country: Nepal</h5>
+				<h5>Sex: Male</h5>
+				<button class="btn">Accept</button>
+			</div>
+			<div class="course-info">
+			
+			
+				<h5>Name: Hem Raj Pandey</h5>
+				<h5>Contact: 9864766958</h2>
+				<h5>Email: hemrajpandeyd@gmail.com</h2>
+				<h5>Country: Nepal</h5>
+				<h5>Sex: Male</h5>
+				<button class="btn">Accept</button>
+			</div>
+			<div class="course-info">
+			
+			
+				<h5>Name: Hem Raj Pandey</h5>
+				<h5>Contact: 9864766958</h2>
+				<h5>Email: hemrajpandeyd@gmail.com</h2>
+				<h5>Country: Nepal</h5>
+				<h5>Sex: Male</h5>
+				<button class="btn">Accept</button>
+			</div>
+			<div class="course-info">
+			
+				<h5>Name: Hem Raj Pandey</h5>
+				<h5>Contact: 9864766958</h2>
+				<h5>Email: hemrajpandeyd@gmail.com</h2>
+				<h5>Country: Nepal</h5>
+				<h5>Sex: Male</h5>
+				<button class="btn">Accept</button>
+			</div>
+			<div class="course-info">
+			
+				
+				<h5>Name: Hem Raj Pandey</h5>
+				<h5>Contact: 9864766958</h2>
+				<h5>Email: hemrajpandeyd@gmail.com</h2>
+				<h5>Country: Nepal</h5>
+				<h5>Sex: Male</h5>
+				<button class="btn">Accept</button>
+			</div>
+			<div class="course-info">
+			
+				<h5>Name: Hem Raj Pandey</h5>
+				<h5>Contact: 9864766958</h2>
+				<h5>Email: hemrajpandeyd@gmail.com</h2>
+				<h5>Country: Nepal</h5>
+				<h5>Sex: Male</h5>
+				<button class="btn">Accept</button>
+			</div>
+			<div class="course-info">
+			
+			
+				<h5>Name: Hem Raj Pandey</h5>
+				<h5>Contact: 9864766958</h2>
+				<h5>Email: hemrajpandeyd@gmail.com</h2>
+				<h5>Country: Nepal</h5>
+				<h5>Sex: Male</h5>
+				<button class="btn">Accept</button>
+			</div>
+		</div>
+	
+	   
+	
+	
+		
+
+
+</div>
+   
+    
+
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+
+// $('.btn').click(function() {
+//   $('.course-info').not($(this).parent()).css('opacity', '0.5');
+// });
+
+// Get all the buttons
+const buttons = document.querySelectorAll('.btn');
+const courseInfos = document.querySelectorAll('.course-info');
+
+
+buttons.forEach((button) => {
+  button.addEventListener('click', (event) => {
+    event.target.style.backgroundColor = 'gold';
+    buttons.forEach((otherButton) => {
+      if (otherButton !== button) {
+        otherButton.style.opacity = 0.3;
+        otherButton.disabled = true;
+        otherButton.style.pointerEvents = 'none'; // Disable hover effect
+      }
+    });
+    courseInfos.forEach((courseInfo, courseIndex) => {
+      if (index !== courseIndex) {
+        courseInfo.style.opacity = 0.2;
+      }
+    });
+  });
+});
+
+
+</script>
